@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tienda Online</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="Catalogo.js" defer></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>LOS GALLEGOS SHOP:</h1>
+
+    </header>
+
+
+
+    <div class="contenedor-productos" id="contenedor-productos">
+
+        <!-- Aquí se mostrarán los productos -->
+
+
+
+        <!--filtros-->
+
+        <div class="producto" id="producto">
+
+            <img src="assets/filtro de aceite.jpg" alt="Filtro de aceite">
+
+            <h3>FILTRO DE ACEITE</h3>
+
+            <p>Precio: $3500.00</p>
+
+            <button class="agregar-al-carrito" data-nombre="Filtro de aceite" data-precio="3500.00">Agregar al carrito</button>
+
+            
+
+        </div>
+
+
+
+        <div class="producto" id="producto">
+
+            <img src="assets/filtro de aire.jpg" alt="Filtro de aire">
+
+            <h3>FILTRO DE AIRE</h3>
+
+            <p>Precio: $4500.00</p>
+
+            <button class="agregar-al-carrito" data-nombre="Filtro de Aire" data-precio="4500.00">Agregar al carrito</button>
+
+            
+
+        </div>
+
+
+
+        <div class="producto" id="producto">
+
+            <img src="assets/filtro gasoil.jpg" alt="Filtro de gasoil">
+
+            <h3>FILTRO DE GASOIL</h3>
+
+            <p>Precio: $20000.00</p>
+
+            <button class="agregar-al-carrito" data-nombre="Filtro de Gasoil" data-precio="20000.00">Agregar al carrito</button>
+
+           
+
+        </div>
+
+
+
+        <div class="producto" id="producto">
+
+            <img src="assets/filtro habitaculo.jpg" alt="Filtro de habitaculo">
+
+            <h3>FILTRO DE HABITACULO</h3>
+
+            <p>Precio: $5000.00</p>
+
+            <button class="agregar-al-carrito" data-nombre="Filtro de Habitaculo " data-precio="5000.00">Agregar al carrito</button>
+
+            
+
+        </div>
+
+
+
+        <div class="producto" id="producto">
+
+            <img src="assets/filtro de nafta.jpg" alt="Filtro de nafta">
+
+            <h3>FILTRO DE NAFTA</h3>
+
+            <p>Precio: $6000.00</p>
+
+            <button class="agregar-al-carrito" data-nombre="Filtro de Nafta" data-precio="6000.00">Agregar al carrito</button>
+
+            
+
+        </div>
+
+
+
+        <!--aceites-->
+
+        <div class="producto" id="producto">
+
+            <img src="assets/f10.jpg" alt="bidon de aceite">
+
+            <h3>BIDON ACEITE MINERAL</h3>
+
+            <p>Precio: $12000.00</p>
+
+            <button class="agregar-al-carrito" data-nombre="Bidon Aceite Mineral" data-precio="12000.00">Agregar al carrito</button>
+
+           
+
+        </div>
+
+
+
+        <div class="producto" id="producto">
+
+            <img src="assets/f30.jpg" alt="bidon de aceite">
+
+            <h3>BIDON ACEITE SEMI-SINTETICO</h3>
+
+            <p>Precio: $16000.00</p>
+
+            <button class="agregar-al-carrito" data-nombre="Bidon Semi-Sintetico" data-precio="16000.00">Agregar al carrito</button>
+
+            
+
+        </div>
+
+
+
+        <div class="producto" id="producto">
+
+            <img src="assets/f50.jpg" alt="bidon de aceite">
+
+            <h3>BIDON ACEITE SINTETICO</h3>
+
+            <p>Precio: $32000.00</p>
+
+            <button class="agregar-al-carrito" data-nombre="Bidon sintetico" data-precio="32000.00">Agregar al carrito</button>
+
+        </div>
+
+        <!--accesorios-->
+
+        <div class="producto" id="producto">
+
+            <img src="assets/escobillas.jpg" alt="escobillas">
+
+            <h3>ESCOBILLAS</h3>
+
+            <p>Precio: $14000.00</p>
+
+            <button class="agregar-al-carrito" data-nombre="Escobillas" data-precio="14000.00">Agregar al carrito</button>
+
+        </div>
+
+
+
+        <div class="producto" id="producto">
+
+            <img src="assets/pinitos.jpg" alt="pinitos">
+
+            <h3>PERFUMES</h3>
+
+            <p>Precio: $400.00</p>
+
+            <button class="agregar-al-carrito" data-nombre="Aromatizantes" data-precio="400.00">Agregar al carrito</button>
+
+        </div>
+
+
+
+
+
+        <!-- se pueden agragar mas productos -->
+
+     
+
+<!-- Carrito de compras -->
+
+<div id="carrito" class="carrito">
+
+    <h2>Carrito de Compras</h2>
+
+    <ul id="lista-carrito"></ul>
+
+    <p>Total: $<span id="total-carrito">0.00</span></p>
+
+    
+
+    <button id="vaciar-carrito">Vaciar Carrito</button>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
